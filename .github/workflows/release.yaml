@@ -33,4 +33,4 @@ jobs:
         goversion: "./src/go.mod"
         project_path: "./src/"
         binary_name: "postmanToHttp"
-        extra_files: LICENSE README.md
+        extra_files: README.md
