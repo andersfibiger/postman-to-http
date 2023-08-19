@@ -6,7 +6,7 @@ It converts basic features but not everything is handled yet.
 ## How to use
 
 Convert a collection to .http
-`postmanToHtpp -input 'somePostmanCollection.json' -output './output' generate-collection`
+`postmanToHtpp -output './collection' convert-collection ./path-to-json-collection`
 
 Convert an environment to .env file
-`postmanToHtpp -input 'somePostmanEnvironment.json' -output './env' generate-env-file`
+`postmanToHtpp -output './env' convert-environment ./path-to-json-environment`
